@@ -5,8 +5,14 @@
 }
 .navbar-light .navbar-nav .nav-link{
   color: white;
+  margin: 0px 3px;
 }
-
+.navbar a{
+  font-size: 0.9rem;
+}
+.navbar-brand{
+  padding: 0;
+}
 .dropdown-menu {
   margin-top: 0;
 }
