@@ -1,20 +1,24 @@
 .navbar{
-  background-color: #1E7FFF;
+  /* background-color: #1E7FFF; */
   position: fixed;
   width: 100%;
+  background: rgb(145,145,145);
+  background: linear-gradient(180deg, rgb(158, 158, 158) 0%, rgba(106,106,106,1) 100%);
+  border-top: 1px solid rgb(188, 188, 188);
 }
 .navbar-light .navbar-nav .nav-link{
   color: white;
   margin: 0px 3px;
 }
 .navbar a{
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 .navbar-brand{
   padding: 0;
 }
 .dropdown-menu {
   margin-top: 0;
+  background-color: #a3a3a3;
 }
 .dropdown-menu .dropdown-toggle::after {
   vertical-align: middle;
@@ -32,6 +36,9 @@
   right: 100%;
   left: auto;
 }
+.dropdown-menu li a{
+  color: white;
+}
 @media (min-width: 768px) {
   .dropdown-menu .dropdown .dropdown-menu {
     margin: 0;
@@ -40,7 +47,7 @@
 
   .dropdown-menu > li a:hover,
   .dropdown-menu > li.show {
-    background: #1E7FFF;
+    background: #818181;
     color: white;
   }
   .dropdown-menu > li.show > a {
